@@ -6,19 +6,22 @@
 
 const fs = require("fs");
 
-const input = fs.readFileSync("./input.txt").toString().split("\n");
+const input = fs.readFileSync("./input.txt").toString().trim().split("\n");
 
-const output="Case 1: 14\n" +
-    "Case 2: 11"
-function solution(value){
-    for(let i =0;i<value.length-1;i++){
-        let count=0;
-        let list=value[i].split(" ")
-        count=Math.floor(list[2]/list[1])*list[0]
-        count+=list[2]%list[1]
-        console.log(`Case ${i+1}: ${count}`);
+function solution(value) {
+  for (let i = 0; i < value.length - 1; i++) {
+    const formatValue = value[i].split(" ").map(Number);
+    const L = formatValue[0];
+    const P = formatValue[1];
+    const V = formatValue[2];
+    if (V % P > L) {
+      const count = Math.floor(V / P) * L + L;
+      console.log(`Case ${i + 1}: ${count}`);
+    } else {
+      const count = Math.floor(V / P) * L + (V % P);
+      console.log(`Case ${i + 1}: ${count}`);
     }
+  }
 }
 
-solution(input)
-
+solution(input);
