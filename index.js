@@ -1,6 +1,10 @@
 const fs = require("fs");
 
-const [T, input] = fs.readFileSync("./input.txt").toString().trim().split("\n");
+const input = fs.readFileSync("./input.txt").toString().trim();
 
-const newInput = input.split(/S|LL/g).length;
-console.log(Math.min(T, newInput));
+function solution(value) {
+  const arr = value.split("+|-");
+  console.log(arr);
+}
+
+console.log(solution(input));
