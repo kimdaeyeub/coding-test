@@ -3,15 +3,35 @@ const fs = require("fs");
 const input = fs.readFileSync("./input.txt").toString().trim();
 
 function solution(value) {
-  const arr = value.split("+");
-  if (arr.length === 1) {
-    // 식이 마이너스(-)를 포함하지 않는 경우
-    return Number(eval(value));
-  } else {
-    //const formula = arr.map((item) => item.split("+"));
-    const formula = arr.map((item) => eval(parseInt(item, 10))).join("-");
-    return Number(eval(formula));
+  let mini = [];
+  const arr = value.split(/(\+|\-)/);
+  const formula = arr.map((item) => {
+    if (item === "+" || item === "-") {
+      return item;
+    } else {
+      return parseInt(item, 10);
+    }
+  });
+
+  let fake = 0;
+
+  for (let i = 0; i < formula.length; i++) {
+    if (formula[i] === "+") {
+      //fake = +formula[i];
+    } else if (formula[i] === "-") {
+      mini.push(fake);
+      fake = 0;
+      mini.push(formula[i]);
+    } else {
+      //숫자일경우
+      fake += formula[i];
+      if (i === formula.length - 1) {
+        mini.push(fake);
+      }
+    }
   }
+
+  return eval(mini.join(""));
 }
 
 console.log(solution(input));
