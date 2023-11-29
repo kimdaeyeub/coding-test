@@ -10,26 +10,30 @@ function solution(value) {
   let count = 1;
   let answer = [];
 
-  for (let i = 1; i < value.length; i++) {
+  for (let i = 1; i <= value[0]; i++) {
     const data = value[i].split(" ");
     newInput.push(data);
   }
 
   newInput = newInput.sort((a, b) => {
-    b[0] - a[0];
+    if (a[1] - b[1] > 0) {
+      return 1;
+    } else if (a[1] === b[1]) {
+      return a[0] - b[0] > 0 ? 1 : -1;
+    } else {
+      return -1;
+    }
   });
 
-  console.log(newInput);
+  answer = newInput[0];
 
-  //answer = newInput[0];
-
-  //for (let i = 1; i < newInput.length; i++) {
-  //  if (Number(newInput[i][0]) >= Number(answer[1])) {
-  //    answer = newInput[i];
-  //    count += 1;
-  //  }
-  //}
-  //return count;
+  for (let i = 1; i < newInput.length; i++) {
+    if (Number(newInput[i][0]) >= Number(answer[1])) {
+      answer = newInput[i];
+      count += 1;
+    }
+  }
+  return count;
 }
 
 console.log(solution(input));
