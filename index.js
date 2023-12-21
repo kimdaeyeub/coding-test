@@ -1,33 +1,50 @@
-//
-//총 길이 3
-//10*2+20*2+40*1
-//(10+20)+(10+20+40)
-//
-//총 길이4
-//(10+20)+(10+20+40)+(10+20+40+80)
-//10*3+20*3+40*2+80*1
+function sameFrequency(num1, num2) {
+  let strNum1 = num1.toString();
+  let strNum2 = num2.toString();
+  if (strNum1.length !== strNum2.length) return false;
 
-const fs = require("fs");
+  let countNum1 = {};
+  let countNum2 = {};
 
-const input = fs.readFileSync("./input.txt").toString().trim().split("\n");
-
-function solution(value) {
-  const count = value[0];
-  value.shift();
-
-  const numberList = value.sort((a, b) => {
-    return a - b;
-  });
-
-  let total = 0;
-  for (let i = 0; i < count; i++) {
-    if (i === 0) {
-      total += Number(numberList[i]) * (count - 1);
-    } else {
-      total += Number(numberList[i]) * (count - i);
-    }
+  for (let i = 0; i < strNum1.length; i++) {
+    countNum1[strNum1[i]] = (countNum1[strNum1[i]] || 0) + 1;
   }
-  return total;
+
+  for (let j = 0; j < strNum1.length; j++) {
+    countNum2[strNum2[j]] = (countNum2[strNum2[j]] || 0) + 1;
+  }
+
+  for (let key in countNum1) {
+    if (countNum1[key] !== countNum2[key]) return false;
+  }
+
+  return true;
 }
 
-console.log(solution(input));
+function areThereDuplicates() {
+  let collection = {};
+  for (let val in arguments) {
+    collection[arguments[val]] = (collection[arguments[val]] || 0) + 1;
+  }
+  for (let key in collection) {
+    if (collection[key] > 1) return true;
+  }
+  return false;
+}
+function areThereDuplicates(...args) {
+  // Two pointers
+  args.sort((a, b) => a > b);
+  let start = 0;
+  let next = 1;
+  while (next < args.length) {
+    if (args[start] === args[next]) {
+      return true;
+    }
+    start++;
+    next++;
+  }
+  return false;
+}
+function areThereDuplicates() {
+  return new Set(arguments).size !== arguments.length;
+}
