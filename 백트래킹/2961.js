@@ -23,8 +23,8 @@ function dfs(depth, start) {
       val1 *= Number(data[x][0]);
       val2 += Number(data[x][1]);
     }
-    val1 = val1 - val2;
-    minValue = Math.min(minValue, Math.abs(val1));
+    const temp = val1 - val2;
+    minValue = Math.min(minValue, Math.abs(temp));
     val1 = 1;
     val2 = 0;
     return;
