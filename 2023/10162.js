@@ -15,19 +15,19 @@
 const fs = require("fs");
 
 const input = fs.readFileSync("./input.txt").toString();
-function calc(value){
-    const times=[300,60,10]
-    if(input%10!==0){
-        return -1
-    }else{
-        let count=[]
-        let total=value
-        times.map(time=>{
-            count.push(Math.floor(total/time))
-            total=input%time
-        })
-        return count.join(" ");
-    }
+function calc(value) {
+  const times = [300, 60, 10];
+  if (input % 10 !== 0) {
+    return -1;
+  } else {
+    let count = [];
+    let total = value;
+    times.map((time) => {
+      count.push(Math.floor(total / time));
+      total = input % time;
+    });
+    return count.join(" ");
+  }
 }
 
-console.log(calc(input))
+console.log(calc(input));

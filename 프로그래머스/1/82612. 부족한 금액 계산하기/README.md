@@ -1,6 +1,6 @@
-# [level 1] 부족한 금액 계산하기 - 82612 
+# [level 1] 부족한 금액 계산하기 - 82612
 
-[문제 링크](https://school.programmers.co.kr/learn/courses/30/lessons/82612) 
+[문제 링크](https://school.programmers.co.kr/learn/courses/30/lessons/82612)
 
 ### 성능 요약
 
@@ -63,6 +63,5 @@
 <li>같은 코드를 제출한 사람이 여럿이라면 코드를 가장 먼저 제출한 분께 상품을 드립니다.</li>
 <li>좋아요 수가 동일할 경우 코드를 가장 먼저 제출한 분께 상품을 드립니다.</li>
 </ul>
-
 
 > 출처: 프로그래머스 코딩 테스트 연습, https://school.programmers.co.kr/learn/challenges

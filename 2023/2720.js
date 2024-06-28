@@ -24,18 +24,23 @@
 
 const fs = require("fs");
 
-const input = fs.readFileSync("./input.txt").toString().trim().split("\n").map(Number);
-const unit=[25,10,5,1]
+const input = fs
+  .readFileSync("./input.txt")
+  .toString()
+  .trim()
+  .split("\n")
+  .map(Number);
+const unit = [25, 10, 5, 1];
 
-function solution(money){
-    return unit.map(item => {
-        const count = Math.floor(money / item)
-        money = money - count * item
-        return count
-    })
+function solution(money) {
+  return unit.map((item) => {
+    const count = Math.floor(money / item);
+    money = money - count * item;
+    return count;
+  });
 }
 
-for(let i=1;i<input.length;i++){
-    const answer=solution(input[i])
-    console.log(answer.join(" "))
+for (let i = 1; i < input.length; i++) {
+  const answer = solution(input[i]);
+  console.log(answer.join(" "));
 }

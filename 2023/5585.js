@@ -9,18 +9,18 @@ const fs = require("fs");
 
 const input = fs.readFileSync("./input.txt").toString();
 
-const calc=(value)=>{
-    const types=[500,100,50,10,5,1];
+const calc = (value) => {
+  const types = [500, 100, 50, 10, 5, 1];
 
-    let money= 1000-value;
-    let count= 0;
+  let money = 1000 - value;
+  let count = 0;
 
-    types.map((item)=>{
-        count+=Math.floor(money/item);
-        money=money%item;
-    })
+  types.map((item) => {
+    count += Math.floor(money / item);
+    money = money % item;
+  });
 
-    return Number(count);
-}
+  return Number(count);
+};
 
-console.log(calc(input))
+console.log(calc(input));

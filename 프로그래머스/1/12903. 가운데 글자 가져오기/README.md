@@ -1,6 +1,6 @@
-# [level 1] 가운데 글자 가져오기 - 12903 
+# [level 1] 가운데 글자 가져오기 - 12903
 
-[문제 링크](https://school.programmers.co.kr/learn/courses/30/lessons/12903) 
+[문제 링크](https://school.programmers.co.kr/learn/courses/30/lessons/12903)
 
 ### 성능 요약
 

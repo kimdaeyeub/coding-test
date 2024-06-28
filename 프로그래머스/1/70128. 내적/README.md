@@ -1,6 +1,6 @@
-# [level 1] 내적 - 70128 
+# [level 1] 내적 - 70128
 
-[문제 링크](https://school.programmers.co.kr/learn/courses/30/lessons/70128) 
+[문제 링크](https://school.programmers.co.kr/learn/courses/30/lessons/70128)
 
 ### 성능 요약
 
@@ -70,6 +70,5 @@
 <ul>
 <li>a와 b의 내적은 <code>(-1)*1 + 0*0 + 1*(-1) = -2</code> 입니다.</li>
 </ul>
-
 
 > 출처: 프로그래머스 코딩 테스트 연습, https://school.programmers.co.kr/learn/challenges

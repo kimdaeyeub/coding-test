@@ -1,6 +1,6 @@
-# [level 1] 나누어 떨어지는 숫자 배열 - 12910 
+# [level 1] 나누어 떨어지는 숫자 배열 - 12910
 
-[문제 링크](https://school.programmers.co.kr/learn/courses/30/lessons/12910) 
+[문제 링크](https://school.programmers.co.kr/learn/courses/30/lessons/12910)
 
 ### 성능 요약
 
@@ -67,6 +67,5 @@ arr의 모든 원소는 1으로 나누어 떨어집니다. 원소를 오름차�
 
 <p>입출력 예#3<br>
 3, 2, 6은 10으로 나누어 떨어지지 않습니다. 나누어 떨어지는 원소가 없으므로 [-1]을 리턴합니다.</p>
-
 
 > 출처: 프로그래머스 코딩 테스트 연습, https://school.programmers.co.kr/learn/challenges

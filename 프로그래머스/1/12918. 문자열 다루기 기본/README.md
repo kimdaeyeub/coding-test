@@ -1,6 +1,6 @@
-# [level 1] 문자열 다루기 기본 - 12918 
+# [level 1] 문자열 다루기 기본 - 12918
 
-[문제 링크](https://school.programmers.co.kr/learn/courses/30/lessons/12918) 
+[문제 링크](https://school.programmers.co.kr/learn/courses/30/lessons/12918)
 
 ### 성능 요약
 
@@ -56,6 +56,5 @@
 <li>공지 - 2022년 7월 22일 테스트케이스가 추가되었습니다.</li>
 <li>공지 - 2022년 7월 22일 제한 사항이 추가되었습니다.</li>
 </ul>
-
 
 > 출처: 프로그래머스 코딩 테스트 연습, https://school.programmers.co.kr/learn/challenges
