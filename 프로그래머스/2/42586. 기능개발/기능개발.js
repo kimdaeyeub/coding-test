@@ -1,19 +1,25 @@
 function solution(progresses, speeds) {
-    var answer = [];
-    let arr=[];
-    for(let i=0;i<progresses.length;i++){
-        arr.push(Math.ceil((100-progresses[i])/speeds[i]))
+  var answer = [];
+  let condition = true;
+  let arr = progresses.map((progress, index) =>
+    Math.ceil((100 - progress) / speeds[index])
+  );
+
+  let count = 0;
+  let init = arr[0];
+
+  for (let i = 0; i < arr.length; i++) {
+    if (arr[i] <= init) {
+      count++;
+    } else {
+      answer.push(count);
+      count = 1;
+      init = arr[i];
     }
-    
-    while(arr.length!==0){
-        
-        arr=arr.map(item=>item-arr[0])
-        let count=0
-        while(arr[0]<=0){
-            arr.shift()
-            count++
-        }
-        answer.push(count)
-    }
-    return answer;
+  }
+  answer.push(count);
+  return answer;
 }
+
+console.log(solution([93, 30, 55], [1, 30, 5])); // [2, 1]
+console.log(solution([95, 90, 99, 99, 80, 99], [1, 1, 1, 1, 1, 1])); // [1, 3, 2]
