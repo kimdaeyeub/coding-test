@@ -68,13 +68,74 @@ class BinarySearchTree {
     queue.push(node);
     while (queue.length) {
       node = queue.shift();
-      data.push(node);
+      data.push(node.value);
       if (node.left) queue.push(node.left);
       if (node.right) queue.push(node.right);
     }
     return data;
   }
+  DFSPreOrder() {
+    // 1. 방문한 노드를 저장할 변수 생성(변수이름 data)
+    let data = [];
+    // 2. 'current'라는 변수를 만들고 루트를 저장
+    let current = this.root;
+    // 3. node라는 인자를 받는 helper함수를 만든다.
+    function traverse(node) {
+      // 4. data에 node를 넣는다.
+      data.push(node);
+      // 5. left프로퍼티가 있나 확인하고, 있다면 헬퍼 함수를 left프로퍼티에 대해 호출
+      if (node.left) traverse(node.left);
+      // 6. right프로퍼티가 있나 확인하고, 있다면 헬퍼 함수를 right프로퍼티에 대해 호출
+      if (node.right) traverse(node.right);
+    }
+    // 7. 헬퍼함수를 호출
+    traverse(current);
+    return data;
+  }
+
+  DFSPostOrder() {
+    // 1. 방문한 노드를 저장할 변수 생성(변수이름 data)
+    let data = [];
+    // 2. 'current'라는 변수를 만들고 루트를 저장
+    let current = this.root;
+    // 3. node라는 인자를 받는 helper함수를 만든다.
+    function traverse(node) {
+      // 4. left프로퍼티가 있나 확인하고, 있다면 헬퍼 함수를 left프로퍼티에 대해 호출
+      if (node.left) traverse(node.left);
+      // 5. right프로퍼티가 있나 확인하고, 있다면 헬퍼 함수를 right프로퍼티에 대해 호출
+      if (node.right) traverse(node.right);
+      // 6. data에 node를 넣는다.
+      data.push(node.value);
+    }
+    // 7. 헬퍼함수를 호출
+    traverse(current);
+    //8. 변수 리턴
+    return data;
+  }
+
+  DFSInOrder() {
+    // 1. 방문한 노드를 저장할 변수 생성(변수이름 data)
+    let data = [];
+    // 2. 'current'라는 변수를 만들고 루트를 저장
+    let current = this.root;
+    // 3. node라는 인자를 받는 helper함수를 만든다.
+    function traverse(node) {
+      // 4. left프로퍼티가 있나 확인하고, 있다면 헬퍼 함수를 left프로퍼티에 대해 호출
+      if (node.left) traverse(node.left);
+      // 5. data에 node를 넣는다.
+      data.push(node.value);
+      // 6. right프로퍼티가 있나 확인하고, 있다면 헬퍼 함수를 right프로퍼티에 대해 호출
+      if (node.right) traverse(node.right);
+    }
+    // 7. 헬퍼함수를 호출
+    traverse(current);
+    //8. 변수 리턴
+    return data;
+  }
 }
+//       10
+//   6        15
+// 3   8         20
 
 class Node {
   constructor(value) {
@@ -87,20 +148,10 @@ class Node {
 const tree = new BinarySearchTree();
 
 tree.insert(10);
-tree.insert(7);
+tree.insert(6);
 tree.insert(15);
-tree.insert(9);
-//       10
-//   7        15
-//     9
+tree.insert(8);
+tree.insert(3);
+tree.insert(20);
 
-console.log(tree);
-console.log(tree.find(10)); //true
-console.log(tree.find(11)); // false
-console.log(tree.find(16)); //false
-console.log(tree.find(8)); // false
-console.log(tree.find(7)); // true
-console.log(tree.find(15)); // true
-console.log(tree.find(9)); // true
-
-console.log(tree.BFS());
+console.log(tree.DFSInOrder());
