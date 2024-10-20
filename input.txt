@@ -1,13 +1,16 @@
-dmih
-11
-B
-B
-P x
-L
-B
-B
-B
-P y
-D
-D
-P z
+15
+push 1
+push 2
+front
+back
+size
+empty
+pop
+pop
+pop
+size
+empty
+pop
+push 3
+empty
+front
