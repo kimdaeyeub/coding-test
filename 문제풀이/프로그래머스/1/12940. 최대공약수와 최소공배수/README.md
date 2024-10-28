@@ -1,6 +1,6 @@
-# [level 1] 최대공약수와 최소공배수 - 12940 
+# [level 1] 최대공약수와 최소공배수 - 12940
 
-[문제 링크](https://school.programmers.co.kr/learn/courses/30/lessons/12940) 
+[문제 링크](https://school.programmers.co.kr/learn/courses/30/lessons/12940)
 
 ### 성능 요약
 
@@ -55,6 +55,5 @@
 
 <p>입출력 예 #2<br>
 자연수 2와 5의 최대공약수는 1, 최소공배수는 10이므로 [1, 10]을 리턴해야 합니다.</p>
-
 
 > 출처: 프로그래머스 코딩 테스트 연습, https://school.programmers.co.kr/learn/challenges

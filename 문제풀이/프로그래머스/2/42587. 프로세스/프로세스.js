@@ -21,4 +21,3 @@ function solution(priorities, location) {
     }
   }
 }
-

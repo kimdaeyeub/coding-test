@@ -1,6 +1,6 @@
-# [level 1] 숫자 문자열과 영단어 - 81301 
+# [level 1] 숫자 문자열과 영단어 - 81301
 
-[문제 링크](https://school.programmers.co.kr/learn/courses/30/lessons/81301) 
+[문제 링크](https://school.programmers.co.kr/learn/courses/30/lessons/81301)
 
 ### 성능 요약
 
@@ -155,6 +155,5 @@
 <ul>
 <li>정확성 테스트 : 10초</li>
 </ul>
-
 
 > 출처: 프로그래머스 코딩 테스트 연습, https://school.programmers.co.kr/learn/challenges

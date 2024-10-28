@@ -1,6 +1,6 @@
-# [level 2] 다리를 지나는 트럭 - 42583 
+# [level 2] 다리를 지나는 트럭 - 42583
 
-[문제 링크](https://school.programmers.co.kr/learn/courses/30/lessons/42583) 
+[문제 링크](https://school.programmers.co.kr/learn/courses/30/lessons/42583)
 
 ### 성능 요약
 
@@ -120,6 +120,5 @@
 <p><a href="http://icpckorea.org/2016/ONLINE/problem.pdf" target="_blank" rel="noopener">출처</a></p>
 
 <p>※ 공지 - 2020년 4월 06일 테스트케이스가 추가되었습니다.</p>
-
 
 > 출처: 프로그래머스 코딩 테스트 연습, https://school.programmers.co.kr/learn/challenges

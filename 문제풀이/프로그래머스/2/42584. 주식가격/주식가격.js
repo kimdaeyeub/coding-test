@@ -1,5 +1,3 @@
-
-
 function solution(prices) {
   var answer = new Array(prices.length).fill(0);
   let stack = [];
@@ -19,5 +17,3 @@ function solution(prices) {
 
   return answer;
 }
-
-

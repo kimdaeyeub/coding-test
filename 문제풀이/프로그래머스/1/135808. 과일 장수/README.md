@@ -1,6 +1,6 @@
-# [level 1] 과일 장수 - 135808 
+# [level 1] 과일 장수 - 135808
 
-[문제 링크](https://school.programmers.co.kr/learn/courses/30/lessons/135808) 
+[문제 링크](https://school.programmers.co.kr/learn/courses/30/lessons/135808)
 
 ### 성능 요약
 
@@ -115,6 +115,5 @@
 </tbody>
       </table>
 <p>따라서 (1 x 3 x 1) + (2 x 3 x 1) + (4 x 3 x 2) = 33을 return합니다.</p>
-
 
 > 출처: 프로그래머스 코딩 테스트 연습, https://school.programmers.co.kr/learn/challenges

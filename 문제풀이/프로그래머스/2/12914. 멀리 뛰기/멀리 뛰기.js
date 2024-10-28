@@ -8,7 +8,7 @@ function fibo(n, d) {
   if (d[n] !== 0) {
     return d[n];
   }
-  d[n] = (fibo(n - 1, d)  + fibo(n - 2, d))%1234567;
+  d[n] = (fibo(n - 1, d) + fibo(n - 2, d)) % 1234567;
   return d[n];
 }
 function solution(n) {

@@ -6,13 +6,13 @@
 //     console.log(b);
 // });
 
-const fs=require('fs')
+const fs = require("fs");
 
-const [n,m]=fs.readFileSync('/dev/stdin').toString().trim().split(" ")
-let answer=""
+const [n, m] = fs.readFileSync("/dev/stdin").toString().trim().split(" ");
+let answer = "";
 
-for(let j=0;j<m;j++){
-    for(let i=0;i<n;i++)answer+="*"    
-    answer+="\n"
+for (let j = 0; j < m; j++) {
+  for (let i = 0; i < n; i++) answer += "*";
+  answer += "\n";
 }
-console.log(answer)
+console.log(answer);

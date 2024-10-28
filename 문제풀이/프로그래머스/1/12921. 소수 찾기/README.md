@@ -1,6 +1,6 @@
-# [level 1] 소수 찾기 - 12921 
+# [level 1] 소수 찾기 - 12921
 
-[문제 링크](https://school.programmers.co.kr/learn/courses/30/lessons/12921) 
+[문제 링크](https://school.programmers.co.kr/learn/courses/30/lessons/12921)
 
 ### 성능 요약
 
@@ -55,6 +55,5 @@
 
 <p>입출력 예 #2<br>
 1부터 5 사이의 소수는 [2,3,5] 3개가 존재하므로 3를 반환</p>
-
 
 > 출처: 프로그래머스 코딩 테스트 연습, https://school.programmers.co.kr/learn/challenges

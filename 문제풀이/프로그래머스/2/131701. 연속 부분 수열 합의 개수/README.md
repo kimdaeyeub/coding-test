@@ -1,6 +1,6 @@
-# [level 2] 연속 부분 수열 합의 개수 - 131701 
+# [level 2] 연속 부분 수열 합의 개수 - 131701
 
-[문제 링크](https://school.programmers.co.kr/learn/courses/30/lessons/131701) 
+[문제 링크](https://school.programmers.co.kr/learn/courses/30/lessons/131701)
 
 ### 성능 요약
 
@@ -61,6 +61,5 @@
 길이가 5인 연속 부분 수열로부터 [22] 한 가지의 합이 나올 수 있습니다.<br>
 이들 중 중복되는 값을 제외하면 다음과 같은 18가지의 수들을 얻습니다.<br>
 [1, 2, 4, 5, 6, 7, 9, 10, 11, 12, 13, 15, 16, 17, 18, 20, 21, 22]</p>
-
 
 > 출처: 프로그래머스 코딩 테스트 연습, https://school.programmers.co.kr/learn/challenges

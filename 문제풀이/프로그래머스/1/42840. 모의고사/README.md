@@ -1,6 +1,6 @@
-# [level 1] 모의고사 - 42840 
+# [level 1] 모의고사 - 42840
 
-[문제 링크](https://school.programmers.co.kr/learn/courses/30/lessons/42840) 
+[문제 링크](https://school.programmers.co.kr/learn/courses/30/lessons/42840)
 
 ### 성능 요약
 
@@ -70,6 +70,5 @@
 <ul>
 <li>모든 사람이 2문제씩을 맞췄습니다.</li>
 </ul>
-
 
 > 출처: 프로그래머스 코딩 테스트 연습, https://school.programmers.co.kr/learn/challenges

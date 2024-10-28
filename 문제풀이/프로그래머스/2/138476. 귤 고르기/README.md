@@ -1,6 +1,6 @@
-# [level 2] 귤 고르기 - 138476 
+# [level 2] 귤 고르기 - 138476
 
-[문제 링크](https://school.programmers.co.kr/learn/courses/30/lessons/138476) 
+[문제 링크](https://school.programmers.co.kr/learn/courses/30/lessons/138476)
 
 ### 성능 요약
 
@@ -83,6 +83,5 @@
 <ul>
 <li>경화는 크기가 1인 귤 2개를 판매하거나 2인 귤 2개를 판매할 수 있습니다. 이때의 크기 종류는 1가지로, 이 값이 최소가 됩니다.</li>
 </ul>
-
 
 > 출처: 프로그래머스 코딩 테스트 연습, https://school.programmers.co.kr/learn/challenges

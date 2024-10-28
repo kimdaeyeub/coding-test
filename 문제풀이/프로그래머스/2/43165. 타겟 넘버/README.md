@@ -1,6 +1,6 @@
-# [level 2] 타겟 넘버 - 43165 
+# [level 2] 타겟 넘버 - 43165
 
-[문제 링크](https://school.programmers.co.kr/learn/courses/30/lessons/43165) 
+[문제 링크](https://school.programmers.co.kr/learn/courses/30/lessons/43165)
 
 ### 성능 요약
 
@@ -70,6 +70,5 @@
 <ul>
 <li>총 2가지 방법이 있으므로, 2를 return 합니다.</li>
 </ul>
-
 
 > 출처: 프로그래머스 코딩 테스트 연습, https://school.programmers.co.kr/learn/challenges

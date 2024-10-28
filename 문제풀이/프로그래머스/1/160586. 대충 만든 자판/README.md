@@ -1,6 +1,6 @@
-# [level 1] 대충 만든 자판 - 160586 
+# [level 1] 대충 만든 자판 - 160586
 
-[문제 링크](https://school.programmers.co.kr/learn/courses/30/lessons/160586) 
+[문제 링크](https://school.programmers.co.kr/learn/courses/30/lessons/160586)
 
 ### 성능 요약
 
@@ -128,6 +128,5 @@
 <li>따라서 총합인 6을 두 번째 인덱스에 저장합니다. </li>
 <li>결과적으로 [4, 6]을 return 합니다.</li>
 </ul>
-
 
 > 출처: 프로그래머스 코딩 테스트 연습, https://school.programmers.co.kr/learn/challenges

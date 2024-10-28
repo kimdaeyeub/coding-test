@@ -1,6 +1,6 @@
-# [level 1] 삼총사 - 131705 
+# [level 1] 삼총사 - 131705
 
-[문제 링크](https://school.programmers.co.kr/learn/courses/30/lessons/131705) 
+[문제 링크](https://school.programmers.co.kr/learn/courses/30/lessons/131705)
 
 ### 성능 요약
 
@@ -78,6 +78,5 @@
 <ul>
 <li>삼총사가 될 수 있는 방법이 없습니다.</li>
 </ul>
-
 
 > 출처: 프로그래머스 코딩 테스트 연습, https://school.programmers.co.kr/learn/challenges

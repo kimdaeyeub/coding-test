@@ -1,6 +1,6 @@
-# [level 2] 이진 변환 반복하기 - 70129 
+# [level 2] 이진 변환 반복하기 - 70129
 
-[문제 링크](https://school.programmers.co.kr/learn/courses/30/lessons/70129) 
+[문제 링크](https://school.programmers.co.kr/learn/courses/30/lessons/70129)
 
 ### 성능 요약
 
@@ -196,6 +196,5 @@
 <ul>
 <li>4번의 이진 변환을 하는 동안 1개의 0을 제거했으므로, <code>[4,1]</code>을 return 해야 합니다.</li>
 </ul>
-
 
 > 출처: 프로그래머스 코딩 테스트 연습, https://school.programmers.co.kr/learn/challenges

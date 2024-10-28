@@ -15,4 +15,3 @@ function solution(n, m, section) {
   }
   return answer;
 }
-

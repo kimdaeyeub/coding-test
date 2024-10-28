@@ -1,6 +1,6 @@
-# [level 2] 프로세스 - 42587 
+# [level 2] 프로세스 - 42587
 
-[문제 링크](https://school.programmers.co.kr/learn/courses/30/lessons/42587) 
+[문제 링크](https://school.programmers.co.kr/learn/courses/30/lessons/42587)
 
 ### 성능 요약
 
@@ -81,6 +81,5 @@
 <hr>
 
 <p>※ 공지 - 2023년 4월 21일 문제 지문이 리뉴얼되었습니다.</p>
-
 
 > 출처: 프로그래머스 코딩 테스트 연습, https://school.programmers.co.kr/learn/challenges

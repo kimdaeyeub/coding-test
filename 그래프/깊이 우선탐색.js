@@ -30,8 +30,8 @@ console.log(
       ["C", "D"],
       ["D", "E"],
     ],
-    "A"
-  )
+    "A",
+  ),
 ); // ["A","B","C","D","E"]
 console.log(
   solution(
@@ -43,6 +43,6 @@ console.log(
       ["C", "F"],
       ["E", "F"],
     ],
-    "A"
-  )
+    "A",
+  ),
 ); //["A","B","D","E","F","C"]

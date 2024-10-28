@@ -1,6 +1,6 @@
-# [level 1] 폰켓몬 - 1845 
+# [level 1] 폰켓몬 - 1845
 
-[문제 링크](https://school.programmers.co.kr/learn/courses/30/lessons/1845) 
+[문제 링크](https://school.programmers.co.kr/learn/courses/30/lessons/1845)
 
 ### 성능 요약
 
@@ -79,6 +79,5 @@
 <p>입출력 예 #3<br>
 6마리의 폰켓몬이 있으므로, 3마리의 폰켓몬을 골라야 합니다.<br>
 가장 많은 종류의 폰켓몬을 고르기 위해서는 3번 폰켓몬 한 마리와 2번 폰켓몬 두 마리를 고르거나, 혹은 3번 폰켓몬 두 마리와 2번 폰켓몬 한 마리를 고르면 됩니다. 따라서 최대 고를 수 있는 폰켓몬 종류의 수는 2입니다.</p>
-
 
 > 출처: 프로그래머스 코딩 테스트 연습, https://school.programmers.co.kr/learn/challenges

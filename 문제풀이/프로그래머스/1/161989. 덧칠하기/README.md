@@ -1,6 +1,6 @@
-# [level 1] 덧칠하기 - 161989 
+# [level 1] 덧칠하기 - 161989
 
-[문제 링크](https://school.programmers.co.kr/learn/courses/30/lessons/161989) 
+[문제 링크](https://school.programmers.co.kr/learn/courses/30/lessons/161989)
 
 ### 성능 요약
 
@@ -122,6 +122,5 @@
 
 <p>※ 공지 - 2023년 3월 20일 문제 난이도가 Lv. 2 → Lv. 1로 변경되었습니다.<br>
 ※ 공지 - 2023년 8월 17일 문제 지문의 오탈자를 수정했습니다.</p>
-
 
 > 출처: 프로그래머스 코딩 테스트 연습, https://school.programmers.co.kr/learn/challenges

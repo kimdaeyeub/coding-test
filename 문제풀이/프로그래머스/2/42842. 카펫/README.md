@@ -1,6 +1,6 @@
-# [level 2] 카펫 - 42842 
+# [level 2] 카펫 - 42842
 
-[문제 링크](https://school.programmers.co.kr/learn/courses/30/lessons/42842) 
+[문제 링크](https://school.programmers.co.kr/learn/courses/30/lessons/42842)
 
 ### 성능 요약
 
@@ -65,6 +65,5 @@
 
 <p>※ 공지 - 2020년 2월 3일 테스트케이스가 추가되었습니다.<br>
 ※ 공지 - 2020년 5월 11일 웹접근성을 고려하여 빨간색을 노란색으로 수정하였습니다.</p>
-
 
 > 출처: 프로그래머스 코딩 테스트 연습, https://school.programmers.co.kr/learn/challenges

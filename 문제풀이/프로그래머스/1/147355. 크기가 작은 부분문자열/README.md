@@ -1,6 +1,6 @@
-# [level 1] 크기가 작은 부분문자열 - 147355 
+# [level 1] 크기가 작은 부분문자열 - 147355
 
-[문제 링크](https://school.programmers.co.kr/learn/courses/30/lessons/147355) 
+[문제 링크](https://school.programmers.co.kr/learn/courses/30/lessons/147355)
 
 ### 성능 요약
 
@@ -73,6 +73,5 @@
 
 <p>입출력 예 #3<br>
 <code>p</code>의 길이가 2이므로 <code>t</code>의 부분문자열은 "10", "02", "20", "03"이며, 이중 15보다 작거나 같은 숫자는 "10", "02", "03" 이렇게 3개입니다. "02"와 "03"은 각각 2, 3에 해당한다는 점에 주의하세요</p>
-
 
 > 출처: 프로그래머스 코딩 테스트 연습, https://school.programmers.co.kr/learn/challenges

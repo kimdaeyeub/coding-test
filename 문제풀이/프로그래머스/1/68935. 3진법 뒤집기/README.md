@@ -1,6 +1,6 @@
-# [level 1] 3진법 뒤집기 - 68935 
+# [level 1] 3진법 뒤집기 - 68935
 
-[문제 링크](https://school.programmers.co.kr/learn/courses/30/lessons/68935) 
+[문제 링크](https://school.programmers.co.kr/learn/courses/30/lessons/68935)
 
 ### 성능 요약
 
@@ -102,6 +102,5 @@
 <ul>
 <li>따라서 229를 return 해야 합니다.</li>
 </ul>
-
 
 > 출처: 프로그래머스 코딩 테스트 연습, https://school.programmers.co.kr/learn/challenges

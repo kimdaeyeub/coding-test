@@ -1,6 +1,6 @@
-# [level 1] 이상한 문자 만들기 - 12930 
+# [level 1] 이상한 문자 만들기 - 12930
 
-[문제 링크](https://school.programmers.co.kr/learn/courses/30/lessons/12930) 
+[문제 링크](https://school.programmers.co.kr/learn/courses/30/lessons/12930)
 
 ### 성능 요약
 
@@ -49,6 +49,5 @@
 <h5>문제가 잘 안풀린다면😢</h5>
 
 <p>힌트가 필요한가요? [코딩테스트 연습 힌트 모음집]으로 오세요! → <a href="https://school.programmers.co.kr/learn/courses/14743?itm_content=lesson12930" target="_blank" rel="noopener">클릭</a></p>
-
 
 > 출처: 프로그래머스 코딩 테스트 연습, https://school.programmers.co.kr/learn/challenges

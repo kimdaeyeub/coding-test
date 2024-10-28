@@ -1,6 +1,6 @@
-# [level 1] [PCCP 기출문제] 1번 / 붕대 감기 - 250137 
+# [level 1] [PCCP 기출문제] 1번 / 붕대 감기 - 250137
 
-[문제 링크](https://school.programmers.co.kr/learn/courses/30/lessons/250137) 
+[문제 링크](https://school.programmers.co.kr/learn/courses/30/lessons/250137)
 
 ### 성능 요약
 
@@ -377,6 +377,5 @@
 </tbody>
       </table>
 <p>몬스터의 마지막 공격 직후 캐릭터의 체력은 3입니다. 따라서 <code>3</code>을 return 해야 합니다.</p>
-
 
 > 출처: 프로그래머스 코딩 테스트 연습, https://school.programmers.co.kr/learn/challenges

@@ -1,6 +1,6 @@
-# [level 2] 피로도 - 87946 
+# [level 2] 피로도 - 87946
 
-[문제 링크](https://school.programmers.co.kr/learn/courses/30/lessons/87946) 
+[문제 링크](https://school.programmers.co.kr/learn/courses/30/lessons/87946)
 
 ### 성능 요약
 
@@ -79,6 +79,5 @@
 <hr>
 
 <p>※ 공지 - 2022년 2월 25일 테스트케이스가 추가되었습니다.</p>
-
 
 > 출처: 프로그래머스 코딩 테스트 연습, https://school.programmers.co.kr/learn/challenges

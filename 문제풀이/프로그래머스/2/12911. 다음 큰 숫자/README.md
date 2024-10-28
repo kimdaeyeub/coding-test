@@ -1,6 +1,6 @@
-# [level 2] 다음 큰 숫자 - 12911 
+# [level 2] 다음 큰 숫자 - 12911
 
-[문제 링크](https://school.programmers.co.kr/learn/courses/30/lessons/12911) 
+[문제 링크](https://school.programmers.co.kr/learn/courses/30/lessons/12911)
 
 ### 성능 요약
 
@@ -63,6 +63,5 @@
 문제 예시와 같습니다.<br>
 입출력 예#2<br>
 15(1111)의 다음 큰 숫자는 23(10111)입니다.</p>
-
 
 > 출처: 프로그래머스 코딩 테스트 연습, https://school.programmers.co.kr/learn/challenges

@@ -1,6 +1,6 @@
-# [level 1] 최소직사각형 - 86491 
+# [level 1] 최소직사각형 - 86491
 
-[문제 링크](https://school.programmers.co.kr/learn/courses/30/lessons/86491) 
+[문제 링크](https://school.programmers.co.kr/learn/courses/30/lessons/86491)
 
 ### 성능 요약
 
@@ -106,6 +106,5 @@
 
 <p>입출력 예 #3<br>
 명함들을 적절히 회전시켜 겹쳤을 때, 모든 명함을 포함하는 가장 작은 지갑의 크기는 133(=19 x 7)입니다.</p>
-
 
 > 출처: 프로그래머스 코딩 테스트 연습, https://school.programmers.co.kr/learn/challenges

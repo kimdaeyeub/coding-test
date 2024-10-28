@@ -1,6 +1,6 @@
-# [level 2] 멀리 뛰기 - 12914 
+# [level 2] 멀리 뛰기 - 12914
 
-[문제 링크](https://school.programmers.co.kr/learn/courses/30/lessons/12914) 
+[문제 링크](https://school.programmers.co.kr/learn/courses/30/lessons/12914)
 
 ### 성능 요약
 
@@ -61,6 +61,5 @@
 (1칸, 2칸)<br>
 (1칸, 1칸, 1칸)<br>
 총 3가지 방법으로 멀리 뛸 수 있습니다.</p>
-
 
 > 출처: 프로그래머스 코딩 테스트 연습, https://school.programmers.co.kr/learn/challenges

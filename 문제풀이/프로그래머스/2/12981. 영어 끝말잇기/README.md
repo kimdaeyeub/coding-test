@@ -1,6 +1,6 @@
-# [level 2] 영어 끝말잇기 - 12981 
+# [level 2] 영어 끝말잇기 - 12981
 
-[문제 링크](https://school.programmers.co.kr/learn/courses/30/lessons/12981) 
+[문제 링크](https://school.programmers.co.kr/learn/courses/30/lessons/12981)
 
 ### 성능 요약
 
@@ -122,6 +122,5 @@
 </ul>
 
 <p>와 같은 순서로 말을 하게 되며, 1번 사람이 자신의 세 번째 차례에 'r'로 시작하는 단어 대신, n으로 시작하는 <code>now</code>를 말했기 때문에 이때 처음 탈락자가 나오게 됩니다.</p>
-
 
 > 출처: 프로그래머스 코딩 테스트 연습, https://school.programmers.co.kr/learn/challenges

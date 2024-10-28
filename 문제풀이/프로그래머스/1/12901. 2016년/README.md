@@ -1,6 +1,6 @@
-# [level 1] 2016년 - 12901 
+# [level 1] 2016년 - 12901
 
-[문제 링크](https://school.programmers.co.kr/learn/courses/30/lessons/12901) 
+[문제 링크](https://school.programmers.co.kr/learn/courses/30/lessons/12901)
 
 ### 성능 요약
 

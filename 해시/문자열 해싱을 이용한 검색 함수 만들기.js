@@ -32,5 +32,5 @@ function solution(stringList, hashList) {
 }
 
 console.log(
-  solution(["apple", "banana", "cherry"], ["banana", "kiwi", "melon", "apple"])
+  solution(["apple", "banana", "cherry"], ["banana", "kiwi", "melon", "apple"]),
 ); //true false false true

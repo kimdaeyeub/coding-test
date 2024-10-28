@@ -2,7 +2,7 @@ function solution(progresses, speeds) {
   var answer = [];
   let condition = true;
   let arr = progresses.map((progress, index) =>
-    Math.ceil((100 - progress) / speeds[index])
+    Math.ceil((100 - progress) / speeds[index]),
   );
 
   let count = 0;

@@ -1,6 +1,6 @@
-# [level 2] 짝지어 제거하기 - 12973 
+# [level 2] 짝지어 제거하기 - 12973
 
-[문제 링크](https://school.programmers.co.kr/learn/courses/30/lessons/12973) 
+[문제 링크](https://school.programmers.co.kr/learn/courses/30/lessons/12973)
 
 ### 성능 요약
 
@@ -63,6 +63,5 @@
 
 <p>※ 공지 - 2020년 6월 8일 테스트케이스가 추가되었습니다.<br>
 ※ 공지 - 2023년 8월 31일 테스트케이스가 추가되었습니다. 기존에 제출한 코드가 통과하지 못할 수도 있습니다.</p>
-
 
 > 출처: 프로그래머스 코딩 테스트 연습, https://school.programmers.co.kr/learn/challenges

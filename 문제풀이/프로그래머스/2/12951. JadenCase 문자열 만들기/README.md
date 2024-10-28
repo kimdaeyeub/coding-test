@@ -1,6 +1,6 @@
-# [level 2] JadenCase 문자열 만들기 - 12951 
+# [level 2] JadenCase 문자열 만들기 - 12951
 
-[문제 링크](https://school.programmers.co.kr/learn/courses/30/lessons/12951) 
+[문제 링크](https://school.programmers.co.kr/learn/courses/30/lessons/12951)
 
 ### 성능 요약
 
@@ -56,6 +56,5 @@
 <hr>
 
 <p>※ 공지 - 2022년 1월 14일 제한 조건과 테스트 케이스가 추가되었습니다.</p>
-
 
 > 출처: 프로그래머스 코딩 테스트 연습, https://school.programmers.co.kr/learn/challenges

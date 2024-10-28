@@ -1,6 +1,6 @@
-# [level 1] 시저 암호 - 12926 
+# [level 1] 시저 암호 - 12926
 
-[문제 링크](https://school.programmers.co.kr/learn/courses/30/lessons/12926) 
+[문제 링크](https://school.programmers.co.kr/learn/courses/30/lessons/12926)
 
 ### 성능 요약
 

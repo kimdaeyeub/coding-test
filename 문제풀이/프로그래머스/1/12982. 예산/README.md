@@ -1,6 +1,6 @@
-# [level 1] 예산 - 12982 
+# [level 1] 예산 - 12982
 
-[문제 링크](https://school.programmers.co.kr/learn/courses/30/lessons/12982) 
+[문제 링크](https://school.programmers.co.kr/learn/courses/30/lessons/12982)
 
 ### 성능 요약
 
@@ -73,6 +73,5 @@
 
 <p>입출력 예 #2<br>
 모든 부서의 물품을 구매해주면 10원이 됩니다. 따라서 최대 4개 부서의 물품을 구매해 줄 수 있습니다.</p>
-
 
 > 출처: 프로그래머스 코딩 테스트 연습, https://school.programmers.co.kr/learn/challenges

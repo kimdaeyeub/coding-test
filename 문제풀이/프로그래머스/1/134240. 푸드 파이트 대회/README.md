@@ -1,6 +1,6 @@
-# [level 1] 푸드 파이트 대회 - 134240 
+# [level 1] 푸드 파이트 대회 - 134240
 
-[문제 링크](https://school.programmers.co.kr/learn/courses/30/lessons/134240) 
+[문제 링크](https://school.programmers.co.kr/learn/courses/30/lessons/134240)
 
 ### 성능 요약
 
@@ -75,6 +75,5 @@
 <ul>
 <li>두 선수는 1번 음식 3개, 3번 음식 1개를 먹게 되므로 음식의 배치는 "111303111"입니다.</li>
 </ul>
-
 
 > 출처: 프로그래머스 코딩 테스트 연습, https://school.programmers.co.kr/learn/challenges

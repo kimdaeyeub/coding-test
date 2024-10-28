@@ -1,6 +1,6 @@
-# [level 1] 소수 만들기 - 12977 
+# [level 1] 소수 만들기 - 12977
 
-[문제 링크](https://school.programmers.co.kr/learn/courses/30/lessons/12977) 
+[문제 링크](https://school.programmers.co.kr/learn/courses/30/lessons/12977)
 
 ### 성능 요약
 
@@ -58,6 +58,5 @@
 [1,4,6]을 이용해서 11을 만들 수 있습니다.<br>
 [2,4,7]을 이용해서 13을 만들 수 있습니다.<br>
 [4,6,7]을 이용해서 17을 만들 수 있습니다.</p>
-
 
 > 출처: 프로그래머스 코딩 테스트 연습, https://school.programmers.co.kr/learn/challenges

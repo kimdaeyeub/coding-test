@@ -1,6 +1,6 @@
-# [level 1] 가장 많이 받은 선물 - 258712 
+# [level 1] 가장 많이 받은 선물 - 258712
 
-[문제 링크](https://school.programmers.co.kr/learn/courses/30/lessons/258712) 
+[문제 링크](https://school.programmers.co.kr/learn/courses/30/lessons/258712)
 
 ### 성능 요약
 
@@ -276,6 +276,5 @@
 <p><strong>입출력 예 #3</strong></p>
 
 <p><code>a</code>와 <code>b</code>, <code>a</code>와 <code>c</code>, <code>b</code>와 <code>c</code> 사이에 서로 선물을 주고받은 수도 같고 세 사람의 선물 지수도 0으로 같아 다음 달엔 아무도 선물을 받지 못합니다. 따라서 0을 return 해야 합니다.</p>
-
 
 > 출처: 프로그래머스 코딩 테스트 연습, https://school.programmers.co.kr/learn/challenges

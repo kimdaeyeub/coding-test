@@ -1,6 +1,6 @@
-# [level 1] [1차] 다트 게임 - 17682 
+# [level 1] [1차] 다트 게임 - 17682
 
-[문제 링크](https://school.programmers.co.kr/learn/courses/30/lessons/17682) 
+[문제 링크](https://school.programmers.co.kr/learn/courses/30/lessons/17682)
 
 ### 성능 요약
 
@@ -113,6 +113,5 @@
 </tbody>
       </table>
 <p><a href="http://tech.kakao.com/2017/09/27/kakao-blind-recruitment-round-1/" target="_blank" rel="noopener">해설 보러가기</a></p>
-
 
 > 출처: 프로그래머스 코딩 테스트 연습, https://school.programmers.co.kr/learn/challenges
