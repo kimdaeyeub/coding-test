@@ -24,7 +24,7 @@ function validatePath(x, y) {
 
 function bfs() {
   let queue = [];
-  //[x,y,distance]
+  // [x,y,distance]
   queue.push([0, 0, 1]);
 
   visited[0][0] = true;
